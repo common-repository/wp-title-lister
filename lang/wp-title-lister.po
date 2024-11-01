@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Title Lister\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-06 13:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Hüseyin Kocak <huseyin.kocak@k-78.de>\n"
+"Language-Team: K78 - Let´s do more! <info@k-78.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-title-lister-ayar.php:2
+msgid "\"Setting page\", will be the next version."
+msgstr ""
+
+#: wp-title-lister-table.php:52
+msgid "This is record"
+msgstr ""
+
+#: wp-title-lister-table.php:52
+msgid "to"
+msgstr ""
+
+#: wp-title-lister-table.php:52
+msgid "from"
+msgstr ""
+
+#: wp-title-lister.php:36
+msgid "Version"
+msgstr ""
+
+#: wp-title-lister.php:40
+msgid "Title"
+msgstr ""
+
+#: wp-title-lister.php:41
+msgid "Setting"
+msgstr ""
+
+#: wp-title-lister.php:76
+msgid "Informations and support"
+msgstr ""
+

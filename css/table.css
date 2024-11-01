@@ -1,0 +1,172 @@
+.advancedtable caption {
+	font-style:italic;
+	padding:0 0 5px;
+	text-align:right;
+	width: 700px;
+	color:#4F6B72;
+	height: 26px;
+}
+.advancedtable caption .search{
+	float: left;
+}
+.advancedtable caption .loader{
+	float: left;
+	display: none;
+}
+.advancedtable caption .title{
+	float: right;
+}
+.advancedtable tbody td{
+	border-left:1px solid #C1DAD7;
+	border-bottom:1px solid #C1DAD7;
+	border-top:0 none;
+	font-size:11px;
+	padding:6px 6px 6px 12px;
+}
+.advancedtable tbody td.last{
+	border-right:1px solid #C1DAD7;
+}
+
+.advancedtable thead th{
+	background:#B7C9D6 url(../images/thead.jpg) no-repeat scroll 0 0;
+	border-bottom:1px solid #C1DAD7;
+	border-right:1px solid #C1DAD7;
+	border-top:1px solid #C1DAD7;
+	color:#4F6B72;
+	font-weight:bold;
+	letter-spacing:2px;
+	padding:6px 6px 6px 12px;
+	text-align:left;
+	text-transform:uppercase;
+}
+.advancedtable thead th.first{
+	border-left:1px solid #C1DAD7;
+}
+.advancedtable thead th a:link, .advancedtable thead th a:visited, .advancedtable thead th a:active{
+	color:#4F6B72;
+	text-decoration: none;
+}
+
+.advancedtable thead th a:link, .advancedtable thead th a:active, .advancedtable thead th a:visited{
+	color: #333C42;
+    font: bold 12px Georgia,"Times New Roman",Times,serif;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 #DEEEFA;
+}
+
+.advancedtable thead th a:hover{
+	text-decoration: underline;
+}
+
+tfoot td{
+	background:#B7C9D6 url(../images/tfoot.jpg) repeat-x scroll 0 0;
+	border-bottom:1px solid #C1DAD7;
+	border-right:1px solid #C1DAD7;
+	border-top:1px solid #C1DAD7;
+	color: #333C42;
+	font-weight:bold;
+	letter-spacing:2px;
+	padding:6px 6px 6px 12px;
+	text-align:left;
+}
+
+/** PAGE INFORMATION **/
+.tableInfo{
+	width: 270px;
+	float: left;
+	margin: 7px 0px;
+}
+
+/** PAGE NAVIGATION **/
+.tablenavigation{
+	float:right;
+}
+.tablenavigation span{
+	float: left;
+	margin-top: 3px;
+}
+.tablenavigation ul{
+	float: right;
+	margin: 5px 0px;
+}
+.tablenavigation li {
+	border:0;
+	margin:0;
+	padding:0;
+	font-size:11px;
+	list-style:none;
+	float: left;
+}
+.tablenavigation .active a {
+	color: #333C42 !important;
+	font-weight:bold !important;
+	border:solid 1px #4F6B72 !important;
+}
+.tablenavigation a:link, .tablenavigation a:visited, .tablenavigation a:active {
+	display:block;
+	float:left;
+	padding:3px 6px;
+	text-decoration:none;
+	border:solid 1px #92b3bb;
+	margin-right:2px;
+	color:#4F6B72;
+}
+.tablenavigation a:hover {
+	color: #333;
+}
+
+.odd td{
+	background:#F5FAFA none repeat scroll 0 0;
+	color:#797268;
+}
+.even td{
+	background:#FFFFFF none repeat scroll 0 0;
+	color:#4F6B72;
+}
+.big td{
+	font-weight: bold;
+}
+
+span.asc{
+	background-image: url(../images/down.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;	
+}
+span.desc{
+	background-image: url(../images/up.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;	
+}
+
+/** DATA ERROR STYLE **/
+th.error{
+	color: #FFF !important;
+	background: none !important;
+	background-color: #DA5454 !important;
+	border: solid 1px #b84545 !important;
+}
+td.error{
+	border: solid 1px #b84545 !important;
+	border-top: none !important;
+}
+
+.wptlTitle{
+	float: right;
+	font-family: "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+	color: #4F6B72;
+    font-style: italic;
+    text-align: right;
+	text-transform: capitalize;
+	font-size: 11px;
+}

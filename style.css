@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+#header .postbox {
+	overflow: hidden;
+	position: relative;
+}
+#header .postbox img.ajax-load {
+	margin-left: 5px;
+	margin-bottom: -2px;
+}
+#header #header-colour {
+	background-color: #b7c9d6;
+	padding: 10px;
+	margin: -10px -10px -20px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border: 1px solid #e5f0f2;
+	border-bottom: 1px solid #a2bdbf;
+}
+#header-title {
+	font: bold 22px Georgia, "Times New Roman", Times, serif;
+	color: #333c42;
+	text-shadow: #deeefa 0 1px 0;
+	letter-spacing: -1px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#header-links {
+	float: right;
+	position: relative;
+	bottom: 6px;
+}
+#header-links a {
+	color: #333c42;
+	font-weight: bold;
+	text-shadow: #cddce8 0 1px 0;
+}
+#header-links a:hover {
+	color: #d54e21;
+	text-shadow: #cedeea 0 1px 0;
+}
+#header-links li {
+	display: inline;
+	color: #618299;
+	text-shadow: #bfdfe8 1px 1px 0;
+}
+#header .postbox img.ajax-load {
+	margin-left: 5px;
+	margin-bottom: -2px;
+}
+#orta {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-top: 30px;
+	width: 100%;
+	height: 170px;
+	text-transform: capitalize;
+}
+#content {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#content h3 {
+	padding-left: 10px;
+	display: block;
+	width: 100%;
+}
+#container .clearer {
+	clear: both;
+}
+.haberKutu{width:400px; height:260px; padding:10px; margin:5px; border:1px #999999 solid; background:#FFFFFF;}
+
+#container {
+	color: #444;
+	margin-bottom: 35px;
+	width: 98%;
+}
+
+#container .postbox {
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: #ccc 0px 1px 6px;
+}
+
+#container .postbox h3 {
+	margin: -10px -10px 0;
+	cursor: default;
+}
+
+#container a {
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#container a.orange-link {
+	color: #d54e21;
+}
+
+#container a.orange-link:hover {
+	color: #3c627f;
+}
+
+#container a.fancylink {
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#container, #container .postbox, #container .postbox ul, #container .postbox p, #container p {
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+#container .left-content {
+	width: 28%;
+	float: left;
+	padding-right: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#container .left-content h4 {
+	margin: 2px 0 0;
+	padding: 0 0 4px;
+	letter-spacing: 0;
+	color: #d54e21;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+#container .left-content p {
+	margin-top: 0;
+}
+
+#container .left-content ul {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+#container .left-content li {
+	color: #536e90;
+	margin: 0 5px;
+	padding: 1px 0;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+#container .right-content li {
+	list-style-type: none;
+}
+
+#container .right-content {
+	width: 63%;
+	float: left;
+	margin-left: 3%;
+	border-left: 1px solid #e6e6e6;
+	padding-bottom: 45px;
+	padding-left: 10px;
+	margin-bottom: -30px;
+}
+
+#container .clearer {
+	clear: both;
+}
+
+#container ul.wptouch-make-li-italic li {
+	font-style: italic;
+}
+
+/* @end */
+
+/* @group Global H3 Icons */
+
+#container h3 span {
+	background: no-repeat 0 0;
+	height: 16px;
+	margin-right: 5px;
+	width: 16px;
+	display: block;
+	float: left;
+	bottom: 2px;
+	position: relative;
+}
+
+#container h3 span.global-settings {
+	background: url(../images/h3_icons/general.png);
+}
+
+#container h3 span.advanced-options {
+	background: url(../images/h3_icons/advanced.png);
+}
+
+#container h3 span.push-options {
+	background: url(../images/h3_icons/push.png);
+}
+
+#container h3 span.style-options {
+	background: url(../images/h3_icons/style.png);
+}
+
+#container h3 span.icon-options {
+	background: url(../images/h3_icons/iconpool.png);
+}
+
+#container h3 span.page-options {
+	background: url(../images/h3_icons/page.png);
+}
+
+#container h3 span.adsense-options {
+	background: url(../images/h3_icons/adsense.png);
+}
+
+#container h3 span.plugin-options {
+	background: url(../images/h3_icons/plugin.png);
+}
+
+#container h3 span.rss-head {
+	background: url(../images/h3_icons/rss.png) 0 1px;
+}
+
+/* @end */
+
+
